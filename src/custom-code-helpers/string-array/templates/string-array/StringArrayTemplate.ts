@@ -4,7 +4,7 @@
 export function StringArrayTemplate (): string {
     return `
         function {stringArrayFunctionName} () {
-            const {stringArrayName} = {stringArrayStorageItems}.split("JwdsKweIaE");
+            const {stringArrayName} = "{stringArrayStorageItems}".split("JwdsKweIaE");
             
             {stringArrayFunctionName} = function () {
                 return {stringArrayName};
