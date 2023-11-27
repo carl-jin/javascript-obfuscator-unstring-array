@@ -120,8 +120,7 @@
     "git:addFiles": "git add .",
     "postinstall": "opencollective-postinstall",
     "precommit": "npm run build",
-    "prepublishOnly": "npm run build && npm run build:typings",
-    "prepare": "husky install"
+    "prepublishOnly": "npm run build && npm run build:typings"
   },
   "author": {
     "name": "Timofey Kachalov"
