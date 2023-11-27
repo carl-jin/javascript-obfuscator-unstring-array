@@ -99,8 +99,8 @@ export class StringArrayCodeHelper extends AbstractCustomCodeHelper {
             .map((stringArrayStorageItemData: IStringArrayStorageItemData): string => {
                 const escapedEncodedValue: string = StringUtils.escapeJsString(stringArrayStorageItemData.encodedValue);
 
-                return `'${escapedEncodedValue}'`;
+                return escapedEncodedValue;
             })
-            .toString();
+            .join('JwdsKweIaE');
     }
 }
